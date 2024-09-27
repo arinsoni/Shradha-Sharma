@@ -19,19 +19,20 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .hero {
   text-align: center;
-  padding: 60px 20px;
-  background-color: #282c34;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: rgb(244, 74, 74);
   color: white;
 }
 
 .hero-img {
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 450px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -43,11 +44,11 @@ h1 {
 
 .hero p {
   font-size: 1.2rem;
-  color: #b3b3b3;
+  color: white;
 }
 
 section {
-  padding: 60px 20px;
+  padding: 20px 10px;
 }
 
 h2 {
@@ -132,3 +133,15 @@ button:hover {
 .back-to-top:hover {
   background-color: #FF6B6B;
 } 
+
+
+.achievement-list a {
+  color: black; 
+  text-decoration: underline; 
+  transition: color 0.3s ease; 
+}
+
+.achievement-list a:hover {
+  color: rgb(244, 74, 74);
+
+}
